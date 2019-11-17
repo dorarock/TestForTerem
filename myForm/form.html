@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="./form1.php" method="POST" id="myForm">
+        <select class="list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <select class="list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <select class="list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <select class="list">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <p><label for="field1">Поле 1</label><input type="text" name="field1" id="field1" /></p>
+        <p><label for="field2">Поле 2</label><input type="text" name="field2" id="field2" /></p>
+        <p><input type="submit" name="sendBtn" id="submitBtn" value="Отправить" /></p>
+    </form>
+    <div id="jsonDiv"></div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
