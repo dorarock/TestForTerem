@@ -8,42 +8,45 @@
     <title>Форма</title>
 </head>
 <body>
-    <form action="./form1.php" method="POST" id="myForm">
-        <select class="list">
+  <div class="container">
+    <form action="./form1.php" method="GET" id="myForm">
+        <select id="list1" class="list">
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
           </select>
-          <select class="list">
+          <select id="list2" class="list">
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
           </select>
-          <select class="list">
+          <select id="list3" class="list">
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
           </select>
-          <select class="list">
+          <select id="list4" class="list">
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
         </select>
-        <p><label for="field1">Поле 1</label><input type="text" name="field1" id="field1" /></p>
-        <p><label for="field2">Поле 2</label><input type="text" name="field2" id="field2" /></p>
+        <p><label for="field1">Поле 1</label><input type="text" name="field1" id="field1" placeholder="введите текст"/></p>
+        <p><label for="field2">Поле 2</label><input type="text" name="field2" id="field2" placeholder="введите текст"/></p>
         <p><input type="submit" name="sendBtn" id="submitBtn" value="Отправить" /></p>
     </form>
+  </div>
     <div id="jsonDiv"></div>
-
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.json-1.3.js"></script>
     <script src="js/form.js"></script>
+ 
 </body>
 </html>

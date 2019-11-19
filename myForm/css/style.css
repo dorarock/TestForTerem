@@ -1,5 +1,26 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(108, 163, 145, 0.582);
+    border-radius: 50px;
+}
+
+#myForm {
+    margin-left: 200px;
+}
+
 .list {
-    display: block;
-    margin-bottom: 30px;
-    
+    margin: 20px 0px 10px 50px;
+}
+
+input[type=text] {
+    border: 1px dotted #999;
+    border-radius: 0;
+    -webkit-appearance: none;
+    width: 700px;
+}
+
+input[type=submit] {
+    margin-bottom: 20px;
 }
